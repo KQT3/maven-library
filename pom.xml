@@ -6,16 +6,27 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>chainqt3.blockchain</groupId>
     <artifactId>maven-library</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>maven-library</name>
     <description>maven-library</description>
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>17</java.version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <!--<name>GitHub OWNER Apache Maven Packages</name>-->
+            <url>https://maven.pkg.github.com/KQT3/maven-library</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,15 +48,12 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,4 +1,4 @@
-package com.example.mavenlibrary;
+package chainqt3.blockchain.mavenlibrary;
 
 import lombok.Builder;
 import lombok.Value;

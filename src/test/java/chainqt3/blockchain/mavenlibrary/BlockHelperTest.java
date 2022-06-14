@@ -1,4 +1,4 @@
-package com.example.mavenlibrary;
+package chainqt3.blockchain.mavenlibrary;
 
 import org.junit.jupiter.api.Test;
 
