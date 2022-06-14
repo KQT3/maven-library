@@ -8,7 +8,8 @@ class BlockHelperTest {
 
     @Test
     void create_block() {
-        Block block = BlockHelper.createBlock();
+        String[] genesisTransactions = {"BTC", "ETH"};
+        Block block = BlockHelper.createBlock(0, genesisTransactions);
         assertNotNull(block);
     }
 }

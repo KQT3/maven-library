@@ -13,12 +13,7 @@
     <name>maven-library</name>
     <description>maven-library</description>
     <packaging>jar</packaging>
-
-    <version>0.0.4</version>
-
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+    <version>0.0.5</version>
 
     <distributionManagement>
         <repository>
@@ -32,7 +27,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -58,5 +52,9 @@
             </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <java.version>17</java.version>
+    </properties>
 
 </project>
