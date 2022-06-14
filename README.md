@@ -32,7 +32,7 @@
     <server>
       <id>github</id>
       <username>username</username>
-      <password>...</password>
+      <password>...github-token</password>
     </server>
   </servers>
 </settings>
