@@ -10,7 +10,7 @@
     </parent>
     <groupId>chainqt3.blockchain</groupId>
     <artifactId>maven-library</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>maven-library</name>
     <description>maven-library</description>
     <packaging>jar</packaging>
