@@ -7,4 +7,8 @@ public class BlockHelper {
          return new Block(0, genesisTransactions);
      }
 
+     public static String test() {
+         return "test";
+     }
+
 }
