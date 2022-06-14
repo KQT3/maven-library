@@ -14,7 +14,7 @@
     <description>maven-library</description>
     <packaging>jar</packaging>
 
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 
     <properties>
         <java.version>17</java.version>
