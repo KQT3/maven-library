@@ -47,7 +47,7 @@
         </dependency>
     </dependencies>
     <properties>
-        <revision-chainqt3-blockchain>0.0.5</revision-chainqt3-blockchain>
+        <revision-chainqt3-blockchain>0.0.6</revision-chainqt3-blockchain>
     </properties>
 ```
 
